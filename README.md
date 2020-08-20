@@ -39,6 +39,8 @@
 ---
 * Run_Scrapy_Spider
 
+运行爬虫
+
 建议执行其中的run函数
 
 run函数有两个参数，name参数需要传递爬虫的名称，log参数是是否记录日志，True则记录日志，False则不记录日志，
@@ -66,7 +68,7 @@ run函数有两个参数，name参数需要传递爬虫的名称，log参数是�
 * Scrapy_Headers.py
 
 ！！！
-您还在担心每次创建的时候都需要到刘篮球复制User-Agent吗？？？
+您还在担心每次创建的时候都需要到浏览器中复制User-Agent吗？？？
 快，在settings.py导入这个几乎万能的headers（有些时候可能行不通，还得自己写headers，这只是一个基本框架），调用其中的变量`headers`吧！
 
 ---
@@ -75,3 +77,4 @@ run函数有两个参数，name参数需要传递爬虫的名称，log参数是�
 
 
 ## Finish!
+依赖库:scrapy
